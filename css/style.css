@@ -557,6 +557,65 @@ textarea.write_consult_form{
     margin-bottom: 7px;
 }
 /*news end*/
+/*client*/
+.client_list li {
+    width: 22.5%;
+    float: left;
+    list-style: none;
+    margin-right: 3.25%;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 0 4px rgba(12, 12, 12, 0.5);
+    padding: 20px 0;
+}
+.client_name {
+    font-family: "PTSansBold";
+    font-size: 16px;
+    color: #3b3b3b;
+}
+.client_list li:nth-child(4n) {
+    margin-right: 0;
+}
+.client_list li .read_more {
+    margin-top: 15px;
+    padding: 0 30px;
+}
+.partner_item {
+    text-align: center;
+    box-shadow: 0 0 4px rgba(12, 12, 12, 0.5);
+    display: inline-block;
+    width: 211px;
+    float: left;
+    margin-right: 30px;
+}
+.partner_item_img {
+    height: 140px;
+    vertical-align: middle;
+    display: table-cell;
+    width: 211px;
+}
+.title_partner {
+    font-family: "PTSansBold";
+    font-size: 24px;
+    color: #3b3b3b;
+    margin-bottom: 15px;
+}
+.gallery_review {
+    padding: 0 15px;
+}
+.review_img {
+    border: 1px solid #000;
+    margin-bottom: 15px;
+}
+.review_img img {
+    width: 100%;
+}
+.partner_text {
+    overflow: hidden;
+}
+.partner_text p {
+    margin-bottom: 15px;
+}
 /*media*/
 @media screen and (max-width: 1044px){
     .cr{
